@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(to right, rgb(21, 8, 36),rgb(46, 28, 66), rgb(67, 46, 107), rgb(46, 50, 107)   )
+}
+img#centralizar{
+    /*responsividade*/
+    min-width: 95px; 
+    min-height: 80px;
+    max-width: 150px;
+    max-height: 170px;
+    /*responsividade*/
+    /*tamanho*/
+    width: 160px;
+    height: 145px;
+    /*tamanho*/
+
+    opacity: 85%; /*opacidade*/
+    /*centralização*/
+    display: block;
+    margin: auto;
+    /*centralização*/
+}
+
+div#lateral-projetos{
+    background-attachment: fixed;
+    background-color: rgb(18, 20, 20);
+    
+  
+    width: 300px;
+    height: 400px;
+   
+
+}
+a{
+    color: rgb(71, 71, 248);
+}
+
+nav > a:hover{
+    color: rgb(81, 0, 148);
+
+}
+main{
+    display: flex;
+}
+
+
+div#box-info{
+    /*alinhamento*/
+    display: inline-block;
+    /*alinhamento*/
+    /*cor*/
+    background-color: rgb(168, 240, 240);
+    /*cor*/
+    /*tamanho*/
+    width: 700px;
+    height: 800px;
+    /*tamanho*/
+    /*borda*/
+    border-radius: 10px;
+    /*bora*/
+}
+div#box-info > p{
+    display: flex;
+    font-size: 15px;
+    text-indent: 40px;
+    font-weight: 550;
+    text-align: left;
+    
+}
