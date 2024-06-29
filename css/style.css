@@ -21,14 +21,13 @@ img#centralizar{
 }
 
 div#lateral-projetos{
-    
+    background-attachment: fixed;
     background-color: rgb(18, 20, 20);
-    display: inline-block;
-    width: 250px;
+    
+  
+    width: 300px;
     height: 400px;
-    margin-bottom: 0px;
-    text-align: center;
-    border-radius: 5px;
+   
 
 }
 a{
@@ -39,25 +38,28 @@ nav > a:hover{
     color: rgb(81, 0, 148);
 
 }
+main{
+    display: flex;
+}
 
 
 div#box-info{
     /*alinhamento*/
     display: inline-block;
-    margin: auto;
     /*alinhamento*/
     /*cor*/
     background-color: rgb(168, 240, 240);
     /*cor*/
     /*tamanho*/
-    width: 800px;
-    height: 700px;
+    width: 700px;
+    height: 800px;
     /*tamanho*/
     /*borda*/
     border-radius: 10px;
     /*bora*/
 }
 div#box-info > p{
+    display: flex;
     font-size: 15px;
     text-indent: 40px;
     font-weight: 550;
